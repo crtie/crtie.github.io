@@ -68,6 +68,47 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="uniinsertion_stop()" onmouseover="uniinsertion_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='uniinsertion_image'>
+                      <img src='images/uniinsertion.gif' width="187">
+                    </div>
+                    <img src='images/uniinsertion.gif' width="187">
+                  </div>
+                  <script type="text/javascript">
+                    function uniinsertion_start() {
+                      document.getElementById('uniinsertion_image').style.opacity = "1";
+                    }
+
+                    function uniinsertion_stop() {
+                      document.getElementById('uniinsertion_image').style.opacity = "0";
+                    }
+                    uniinsertion_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>UniInsertion: A Unified Model-Based Insertion Skill
+                      Learning via Differentiable
+                      Physics-Based Simulation
+                    </papertitle>
+
+                  <br>
+                  In submission, sole first author
+                  <br>
+                  <p>We focus on a common category of tasks in daily life, involving the insertion 
+                    of an object into a confined space, where both the object to be inserted and 
+                    the container may be deformable. We propose and define a new set of tasks, 
+                    including rigid object insertion into deformable objects, deformable object 
+                    insertion into rigid objects, and deformable object insertion into other 
+                    deformable objects. Leveraging differentiable physics simulators, we present 
+                    a framework that enables robots to rapidly acquire the skills for this series 
+                    of insertion tasks. Across all six new tasks, our approach outperforms classical 
+                    reinforcement learning algorithms in terms of data efficiency 
+                    and final performance.
+                  </p>
+                </td>
+              </tr>
 
               <tr onmouseout="part_assmmbly_stop()" onmouseover="part_assmmbly_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -113,47 +154,7 @@
               </tr>
 
 
-              <tr onmouseout="uniinsertion_stop()" onmouseover="uniinsertion_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='uniinsertion_image'>
-                      <img src='images/uniinsertion.gif' width="187">
-                    </div>
-                    <img src='images/uniinsertion.gif' width="187">
-                  </div>
-                  <script type="text/javascript">
-                    function uniinsertion_start() {
-                      document.getElementById('uniinsertion_image').style.opacity = "1";
-                    }
 
-                    function uniinsertion_stop() {
-                      document.getElementById('uniinsertion_image').style.opacity = "0";
-                    }
-                    uniinsertion_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                    <papertitle>UniInsertion: A Unified Model-Based Insertion Skill
-                      Learning via Differentiable
-                      Physics-Based Simulation
-                    </papertitle>
-
-                  <br>
-                  In submission, sole first author
-                  <br>
-                  <p>We focus on a common category of tasks in daily life, involving the insertion 
-                    of an object into a confined space, where both the object to be inserted and 
-                    the container may be deformable. We propose and define a new set of tasks, 
-                    including rigid object insertion into deformable objects, deformable object 
-                    insertion into rigid objects, and deformable object insertion into other 
-                    deformable objects. Leveraging differentiable physics simulators, we present 
-                    a framework that enables robots to rapidly acquire the skills for this series 
-                    of insertion tasks. Across all six new tasks, our approach outperforms classical 
-                    reinforcement learning algorithms in terms of data efficiency 
-                    and final performance.
-                  </p>
-                </td>
-              </tr>
 
             </tbody>
           </table>
