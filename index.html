@@ -110,6 +110,58 @@
                 </td>
               </tr>
 
+              <tr onmouseout="jade_stop()" onmouseover="jade_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='jade_image'>
+                      <img src='images/part_assembly.gif' width="187">
+                    </div>
+                    <img src='images/part_assembly.gif' width="187">
+                  </div>
+                  <script type="text/javascript">
+                    function jade_start() {
+                      document.getElementById('jade_image').style.opacity = "1";
+                    }
+
+                    function jade_stop() {
+                      document.getElementById('jade_image').style.opacity = "0";
+                    }
+                    jade_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle> 	
+                      Jade: A Differentiable Physics Engine for Articulated Rigid Bodies with Intersection-Free Frictional Contact
+                    </papertitle>
+                    Gang Yang, , Yunhai Feng, Zhixin Sun, Chenrui Tie, and Lin Shao
+                  <br>
+                  Gang Yang,
+                  <br>
+                  Siyuan Luo,
+                  <br>
+                  Yunhai Feng,
+                  <br>
+                  Zhixin Sun,
+                  <br>
+                  <strong>Chenrui Tie</strong>,
+                  <br>
+                  <a href="https://linsats.github.io/">Lin Shao</a>
+                  <br>
+                  IEEE International Conference on Robotics and Automation (ICRA) 2024 (Under Review) 
+                  <br>
+                  <a href="https://arxiv.org/abs/2309.04710">[paper]</a> &nbsp; &nbsp;
+                  <a href="https://sites.google.com/view/diffsim/">[project page]</a> &nbsp; &nbsp;
+                  <br>
+                  <p>We tackle multi-part geometrically assembly task, leveraging SE(3) equivariance and invariance,
+                    which
+                    fits the physics of the task and narrows the solution space. Thus our method performs better than
+                    previous
+                    methods in two datasets, and is intuitive to future works.
+                  </p>
+                </td>
+              </tr>
+
+
               <tr onmouseout="part_assmmbly_stop()" onmouseover="part_assmmbly_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
