@@ -29,17 +29,20 @@
                     <name>Chenrui Tie (铁宸睿)</name>
                   </p>
                   <p>
-                    I am a first-year Ph.D. student in the School of Computing, National University of Singapore, 
-                    supervised by Prof. <a href="https://linsats.github.io/">Lin Shao</a>. 
-                    Before this, I received my B.S. degree from School of EECS, Peking University in 2024. 
-                    In my undergraduate study, I am privileged to work with Prof. <a href="https://zsdonghao.github.io/">Hao Dong</a> and Prof. <a href="https://hughw19.github.io/">He Wang</a>.
+                    I am a first-year Ph.D. student in the School of Computing, National University of Singapore,
+                    supervised by Prof. <a href="https://linsats.github.io/">Lin Shao</a>.
+                    Before this, I received my B.S. degree from School of EECS, Peking University in 2024.
+                    In my undergraduate study, I am privileged to work with Prof. <a
+                      href="https://zsdonghao.github.io/">Hao Dong</a> and Prof. <a href="https://hughw19.github.io/">He
+                      Wang</a>.
                   </p>
                   <p>
-                    It's worth mentioning that before I study computer science, I majored in physics. 
-                    My research focuses on constructing models by incorporating varying degrees of 
-                    physics intuitions based on the specific characteristics of different robot manipulation tasks, 
-                    so that the robot can more efficiently complete a variety of manipulation tasks in the physical world.
-                    
+                    It's worth mentioning that before I study computer science, I majored in physics.
+                    My research focuses on constructing models by incorporating varying degrees of
+                    physics intuitions based on the specific characteristics of different robot manipulation tasks,
+                    so that the robot can more efficiently complete a variety of manipulation tasks in the physical
+                    world.
+
 
                   </p>
                   <p>
@@ -51,10 +54,37 @@
                     <a href="https://scholar.google.com/citations?user=lN8cZMMAAAAJ&">Google Scholar</a>
                   </p>
                 </td>
-                <td style="padding:2.5%;width:60%;max-width:60%">
-                  <a href="images/pic1.jpg"><img style="width:95%;max-width:95%" alt="profile photo"
-                      src="images/pic1.jpg" class="hoverZoomLink"></a>
+                <td style="padding:2.5%; width:60%; max-width:60%;">
+                  <a href="images/pic1.jpg" class="image-container">
+                    <img style="width:95%; max-width:95%;" alt="profile photo" src="images/pic1.jpg"
+                      class="default-image">
+                    <img style="width:95%; max-width:95%; position:absolute; top:0; left:0; opacity:0;"
+                      alt="profile photo hover" src="images/selfie.jpg" class="hover-image">
+                  </a>
                 </td>
+
+                <style>
+                  .image-container {
+                    position: relative;
+                    /* 设置相对定位，以便悬停图片定位在其上方 */
+                    display: inline-block;
+                  }
+
+                  .image-container img {
+                    transition: opacity 0.3s ease;
+                    /* 添加过渡效果 */
+                  }
+
+                  .image-container:hover .hover-image {
+                    opacity: 1;
+                    /* 鼠标悬停时显示悬停图片 */
+                  }
+
+                  .image-container:hover .default-image {
+                    opacity: 0;
+                    /* 鼠标悬停时隐藏默认图片 */
+                  }
+                </style>
               </tr>
             </tbody>
           </table>
@@ -92,9 +122,9 @@
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                    <papertitle> 	
-                      ET-SEED: Efficient Trajectory-level SE(3) Equivariant Diffusion Policy
-                    </papertitle>
+                  <papertitle>
+                    ET-SEED: Efficient Trajectory-level SE(3) Equivariant Diffusion Policy
+                  </papertitle>
 
                   <br>
                   <strong>Chenrui Tie*</strong>, Yue Chen*, Ruihai Wu*, Boxuan Dong, Zeyi Li, Chongkai Gao†, Hao Dong†
@@ -104,7 +134,7 @@
                   <a href="https://arxiv.org/abs/2411.03990">[paper]</a> &nbsp; &nbsp;
                   <a href="https://et-seed.github.io/">[project page]</a> &nbsp; &nbsp;
                   <br>
-                  <p>We propose a new diffusion policy method to tackle tasks with certain symmetry, 
+                  <p>We propose a new diffusion policy method to tackle tasks with certain symmetry,
                     achieving better data efficiency and spatial generalization.
                   </p>
                 </td>
@@ -131,9 +161,9 @@
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                    <papertitle> 	
-                      EqvAfford: SE (3) Equivariance for Point-Level Affordance Learning
-                    </papertitle>
+                  <papertitle>
+                    EqvAfford: SE (3) Equivariance for Point-Level Affordance Learning
+                  </papertitle>
 
                   <br>
                   Yue Chen*, <strong>Chenrui Tie*</strong>, Ruihai Wu*, Hao Dong
@@ -142,7 +172,7 @@
                   <br>
                   <a href="https://arxiv.org/abs/2408.01953">[paper]</a> &nbsp; &nbsp;
                   <br>
-                  <p>We propose EqvAfford framework, with novel designs to guarantee the SE(3) 
+                  <p>We propose EqvAfford framework, with novel designs to guarantee the SE(3)
                     equivariance in point-level affordance learning for downstream robotic manipulation.
                   </p>
                 </td>
@@ -170,19 +200,22 @@
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                    <papertitle> 	
-                      ManiFoundation Model for General-Purpose Robotic Manipulation of Contact Synthesis with Arbitrary Objects and Robots
-                    </papertitle>
+                  <papertitle>
+                    ManiFoundation Model for General-Purpose Robotic Manipulation of Contact Synthesis with Arbitrary
+                    Objects and Robots
+                  </papertitle>
 
                   <br>
-                  Zhixuan Xu*, Chongkai Gao*, Zixuan Liu*, Gang Yang*, <strong>Chenrui Tie</strong>, Haozhuo Zheng, Haoyu Zhou, Weikun Peng, Debang Wang, Tianyi Chen, Zhouliang Yu, Lin Shao
+                  Zhixuan Xu*, Chongkai Gao*, Zixuan Liu*, Gang Yang*, <strong>Chenrui Tie</strong>, Haozhuo Zheng,
+                  Haoyu Zhou, Weikun Peng, Debang Wang, Tianyi Chen, Zhouliang Yu, Lin Shao
                   <br>
                   IROS 2024(Oral)
                   <br>
                   <a href="https://arxiv.org/pdf/2405.06964">[paper]</a> &nbsp; &nbsp;
                   <a href="https://manifoundationmodel.github.io/">[project page]</a> &nbsp; &nbsp;
                   <br>
-                  <p>We Introduce a framework taking contact synthesis as a unified task representation that can generalizes over objects, robots, and manipulation tasks.
+                  <p>We Introduce a framework taking contact synthesis as a unified task representation that can
+                    generalizes over objects, robots, and manipulation tasks.
                   </p>
                 </td>
               </tr>
@@ -207,9 +240,10 @@
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                    <papertitle> 	
-                      Jade: A Differentiable Physics Engine for Articulated Rigid Bodies with Intersection-Free Frictional Contact
-                    </papertitle>
+                  <papertitle>
+                    Jade: A Differentiable Physics Engine for Articulated Rigid Bodies with Intersection-Free Frictional
+                    Contact
+                  </papertitle>
 
                   <br>
                   Gang Yang, Siyuan Luo, Yunhai Feng, Zhixin Sun, <strong>Chenrui Tie</strong>, Lin Shao
@@ -247,8 +281,8 @@
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                    <papertitle>Leveraging SE(3) Equivariance for Learning 3D Geometric Shape Assembly
-                    </papertitle>
+                  <papertitle>Leveraging SE(3) Equivariance for Learning 3D Geometric Shape Assembly
+                  </papertitle>
 
                   <br>
                   <a href="https://warshallrho.github.io/">Ruihai Wu</a>*,
@@ -259,7 +293,9 @@
                   <br>
                   ICCV 2023
                   <br>
-                  <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Leveraging_SE3_Equivariance_for_Learning_3D_Geometric_Shape_Assembly_ICCV_2023_paper.html">[paper]</a> &nbsp; &nbsp;
+                  <a
+                    href="https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Leveraging_SE3_Equivariance_for_Learning_3D_Geometric_Shape_Assembly_ICCV_2023_paper.html">[paper]</a>
+                  &nbsp; &nbsp;
                   <a href="https://crtie.github.io/SE-3-part-assembly/">[project page]</a> &nbsp; &nbsp;
                   <br>
                   <p>We tackle multi-part geometrically assembly task, leveraging SE(3) equivariance and invariance,
@@ -313,7 +349,9 @@
               <tr>
                 <td style="text-align:center">
                   <br>
-                  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=m&d=eb16FADExCSWyU_ENtxMBfBlI4X0MVoPGYlNEzSMeb4&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>              </tr>
+                  <script type='text/javascript' id='clustrmaps'
+                    src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=m&d=eb16FADExCSWyU_ENtxMBfBlI4X0MVoPGYlNEzSMeb4&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
+              </tr>
             </tbody>
           </table>
           <table
@@ -334,4 +372,5 @@
       </tr>
   </table>
 </body>
+
 </html>
