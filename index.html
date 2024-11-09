@@ -72,6 +72,45 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="etseed_stop()" onmouseover="etseed_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='etseed_image'>
+                      <img src='images/etseed.png' width="187">
+                    </div>
+                    <img src='images/etseed.png' width="187">
+                  </div>
+                  <script type="text/javascript">
+                    function etseed_start() {
+                      document.getElementById('etseed_image').style.opacity = "1";
+                    }
+
+                    function etseed_stop() {
+                      document.getElementById('etseed_image').style.opacity = "0";
+                    }
+                    etseed_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle> 	
+                      ET-SEED: Efficient Trajectory-level SE(3) Equivariant Diffusion Policy
+                    </papertitle>
+
+                  <br>
+                  <strong>Chenrui Tie*</strong>, Yue Chen*, Ruihai Wu*, Boxuan Dong, Zeyi Li, Chongkai Gao†, Hao Dong†
+                  <br>
+                  CoRL 2024 Workshop X-Embodiment Robot Learning
+                  <br>
+                  <a href="https://arxiv.org/abs/2411.03990">[paper]</a> &nbsp; &nbsp;
+                  <a href="https://et-seed.github.io/">[Project Page]</a> &nbsp; &nbsp;
+                  <br>
+                  <p>We propose a new diffusion policy method to tackle tasks with certain symmetry, 
+                    achieving better data efficiency and spatial generalization
+                  </p>
+                </td>
+              </tr>
+
+
               <tr onmouseout="eqvaf_stop()" onmouseover="eqvaf_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -177,7 +216,7 @@
                   <br>
                   ICRA 2024
                   <br>
-                  <a href="https://arxiv.org/abs/2309.04710">[paper]</a> &nbsp; &nbsp;
+                  <a href="https://ieeexplore.ieee.org/abstract/document/10610750">[paper]</a> &nbsp; &nbsp;
                   <a href="https://sites.google.com/view/diffsim/">[project page]</a> &nbsp; &nbsp;
                   <br>
                   <p>We developed Jade, a differentiable physics engine
