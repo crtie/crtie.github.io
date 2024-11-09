@@ -72,7 +72,7 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-              <tr onmouseout="uniinsertion_stop()" onmouseover="uniinsertion_start()">
+<!--               <tr onmouseout="uniinsertion_stop()" onmouseover="uniinsertion_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='uniinsertion_image'>
@@ -106,7 +106,7 @@
                     enable robots to acquire the skills rapidly.
                   </p>
                 </td>
-              </tr>
+              </tr> -->
 
               <tr onmouseout="jade_stop()" onmouseover="jade_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -136,18 +136,14 @@
                   Gang Yang, Siyuan Luo, Yunhai Feng, Zhixin Sun, <strong>Chenrui Tie</strong>,
                   <a href="https://linsats.github.io/">Lin Shao</a>
                   <br>
-                  ICRA 2024 (Under Review) 
+                  ICRA 2024
                   <br>
                   <a href="https://arxiv.org/abs/2309.04710">[paper]</a> &nbsp; &nbsp;
                   <a href="https://sites.google.com/view/diffsim/">[project page]</a> &nbsp; &nbsp;
                   <br>
                   <p>We developed Jade, a differentiable physics engine
                     for articulated rigid bodies, using the continuous collision
-                    detection to detect the time of impact for collision checking
-                    and adopt the backtrack strategy to prevent intersection
-                    between bodies with complex geometry shapes. We also derived
-                    the gradient calculation to ensure the whole simulation
-                    process differentiable under the backtrack mechanism. 
+                    detection to prevent intersection between bodies with complex geometry shapes.
                   </p>
                 </td>
               </tr>
@@ -189,10 +185,7 @@
                   <a href="https://crtie.github.io/SE-3-part-assembly/">[project page]</a> &nbsp; &nbsp;
                   <br>
                   <p>We tackle multi-part geometrically assembly task, leveraging SE(3) equivariance and invariance,
-                    which
-                    fits the physics of the task and narrows the solution space. Thus our method performs better than
-                    previous
-                    methods in two datasets, and is intuitive to future works.
+                    which fits the natural characteristic of the task and narrows the solution space.
                   </p>
                 </td>
               </tr>
